@@ -1,0 +1,55 @@
+# Proyecto: Generación Procedural de Mapas con BSP
+
+Este proyecto implementa la técnica de **Binary Space Partitioning (BSP)** para la generación de mapas 2D, orientado a la estructura de niveles pertenecientes al juego *Hades*. Genera un mapa en consola que representa habitaciones conectadas por pasillos.
+
+## Archivos del Proyecto
+
+* `main.cpp`: Código principal de la implementación BSP.
+* `Makefile`: Facilita la compilación.
+* `README.md`: Este archivo, con instrucciones de ejecución.
+
+## Compilación
+
+Requiere compilador `g++` (C++11 o superior). Para compilar:
+
+```bash
+make
+```
+
+Esto genera un ejecutable llamado `bsp_mapgen`.
+
+## Ejecución
+
+Una vez compilado:
+
+```bash
+./bsp_mapgen
+```
+
+Se imprimirá un mapa 2D en consola, con los siguientes caracteres:
+
+* `#` → Muro
+* `.` → Piso / Habitación o pasillo
+
+## Lógica del Algoritmo
+
+1. El espacio total se divide recursivamente mediante particionamiento BSP.
+2. Se colocan habitaciones en las hojas del árbol BSP.
+3. Se conectan las habitaciones mediante pasillos.
+4. Se imprime el resultado como una grilla de caracteres.
+
+## Personalización
+
+Puedes modificar los siguientes valores dentro del código para experimentar:
+
+```cpp
+const int MAP_WIDTH = 80;
+const int MAP_HEIGHT = 25;
+const int MIN_ROOM_SIZE = 5;
+```
+
+## Autores
+
+* Nombre del estudiante: \[REEMPLAZAR]
+* Curso: Inteligencia Artificial
+* Fecha: 29 de junio de 2025
