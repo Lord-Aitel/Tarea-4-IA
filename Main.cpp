@@ -1,5 +1,3 @@
-// main.cpp - Implementación de BSP para generación de mapas 2D tipo Hades
-
 #include <iostream>
 #include <vector>
 #include <random>
