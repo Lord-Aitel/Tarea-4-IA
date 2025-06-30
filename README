@@ -38,18 +38,8 @@ Se imprimirá un mapa 2D en consola, con los siguientes caracteres:
 3. Se conectan las habitaciones mediante pasillos.
 4. Se imprime el resultado como una grilla de caracteres.
 
-## Personalización
-
-Puedes modificar los siguientes valores dentro del código para experimentar:
-
-```cpp
-const int MAP_WIDTH = 80;
-const int MAP_HEIGHT = 25;
-const int MIN_ROOM_SIZE = 5;
-```
-
 ## Autores
 
-* Nombre del estudiante: \[REEMPLAZAR]
+* Nombre: Matias Peters
 * Curso: Inteligencia Artificial
 * Fecha: 29 de junio de 2025

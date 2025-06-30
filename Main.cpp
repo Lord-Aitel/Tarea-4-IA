@@ -7,7 +7,7 @@
 
 const int MAP_WIDTH = 80;
 const int MAP_HEIGHT = 25;
-const int MIN_ROOM_SIZE = 5;
+const int MIN_ROOM_SIZE = 8;
 const char WALL_CHAR = '#';
 const char FLOOR_CHAR = '.';
 
